@@ -79,7 +79,9 @@ footer img {
 footer img:hover {
   background-color: #061339;
 }
-
+footer h3 {
+  color: #061339;
+}
 .footer__left {
   display: flex;
   flex-direction: column;
