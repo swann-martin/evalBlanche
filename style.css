@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+/* partie nav */
+nav {
+  background-color: #222;
+  color: #eee;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+  font-weight: 500;
+}
+
+.logo {
+  height: 4rem;
+  padding: 1rem;
+}
+
+/* partie header */
+
+header {
+  background: url(./assets/iron_texture637.jpg);
+  height: 10rem;
+}
+
+h1 {
+  font-weight: 300;
+  color: #eee;
+  text-shadow: 5px 1px 10px black;
+}
+
+/* section principale  */
+
+/* partie formulaire  */
+section h2 {
+  font-size: 1.6rem;
+}
+
+textarea {
+  resize: none;
+  height: 20rem;
+}
+
+/* partie carousel */
+.carousel {
+  height: 25rem;
+}
+
+.carousel img {
+  display: block;
+  height: 25rem;
+  object-fit: cover;
+}
+
+/* partie footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  background: #ddd;
+}
+footer img {
+  background-color: #7885a5;
+  transition: all 0.2s ease-in;
+}
+footer img:hover {
+  background-color: #061339;
+}
+
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.footer__right img {
+  min-width: 15rem;
+}
+
+/* partie responsive */
+
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  .carousel {
+    margin-top: 1rem;
+  }
+  .footer__left {
+    margin: 1rem 0;
+  }
+}
